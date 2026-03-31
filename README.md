@@ -1,43 +1,43 @@
-# Web Development Project 4 - _Name of App Here_
+# Web Development Project 4 - Veni-Veci
 
-Submitted by: **Your Name Here**
+Submitted by: Evelyn Rodriguez
 
-This web app: **insert description**
+This web app: A cat discovery app with Cat API.
 
-Time spent: **X** hours spent in total
+Time spent: 3 hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] **Application features a button that creates a new API fetch request on click and displays at least three attributes and an image obtained from the returned JSON data**
+- [x] **Application features a button that creates a new API fetch request on click and displays at least three attributes and an image obtained from the returned JSON data**
   - The type of attribute displayed for each image should be consistent across API calls (i.e. if you are using a cat API, and display the color, breed, and age in response to an initial API call, subsequent button clicks should also result in the color, breed, and age being displayed)
-- [ ] **Only one item/data from API call response is viewable at a time and at least one image is displayed per API call**
+- [x] **Only one item/data from API call response is viewable at a time and at least one image is displayed per API call**
   - A single result of an API call is displayed at a time
   - Displayed attributes should match the displayed image (i.e., if showing a picture of a Siamese cat and the attribute breed, the displayed breed should be 'Siamese' not 'Ragdoll' or another breed that doesn't match)
   - There is at least one image per API call
-- [ ] **API call response results should appear random to the user**
+- [x] **API call response results should appear random to the user**
   - Clicking on the API call button should generate a seemingly random new result each time
   - Note: Repeat results are permitted but the API used should have a reasonably large amount of data and repeats should not be frequent
-- [ ] **Clicking on a displayed value for one attribute adds it to a displayed ban **list\*\*
+- [x] **Clicking on a displayed value for one attribute adds it to a displayed ban **list\*\*
   - At least one attribute for each API result should be clickable
   - Clicking on a clickable attribute not on the ban list, should imnmediately add it to the ban list
   - Clicking on an attribute in the ban list should immediately remove it from the ban list
-- [ ] **Attributes on the ban list prevent further images/API results with that attribute from being displayed**
+- [x] **Attributes on the ban list prevent further images/API results with that attribute from being displayed**
   - Clicking on the API call button should not result in any image/attributes with attribute values in the ban list being displayed (ex. Using a cat API, if the ban list includes the value 'Siberian' for the breed attribute, clicking on the Discover button should never result in a Siberian cat being displayed)
   - Note: More attribute values on the ban list may result in a higher frequency of repeat results
-  - [ ] _To ensure an accurate grade, your recording **must** show that when clicked, an attribute in the ban list is immediately removed from the list of banned attributes_
+  - [x] _To ensure an accurate grade, your recording **must** show that when clicked, an attribute in the ban list is immediately removed from the list of banned attributes_
 
 The following **optional** features are implemented:
 
-- [ ] Multiple types of attributes are clickable and can be added to the ban list
-- [ ] Users can see a stored history of their previously displayed results from this session
+- [x] Multiple types of attributes are clickable and can be added to the ban list
+- [x] Users can see a stored history of their previously displayed results from this session
   - A dedicated section of the application displays all the previous images/attributes seen before
   - Each time the API call button is clicked, the history updates with the newest API result
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you added to improve the site's functionality!
+- [x] I made sure for the most part that images of cats covered as much of the background.
 
 ## Video Walkthrough
 
@@ -47,7 +47,7 @@ Here's a walkthrough of implemented user stories:
 
 <!-- Replace this with whatever GIF tool you used! -->
 
-GIF created with ...
+GIF created with [ScreenToGif](https://www.screentogif.com/) for Windows
 
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
@@ -58,9 +58,11 @@ GIF created with ...
 
 Describe any challenges encountered while building the app.
 
+- API key not registering. (could've only been on my end but I had to restart the server several times)
+
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2026 Evelyn Rodriguez
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
