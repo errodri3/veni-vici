@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import "./App.css";
 
-const API_KEY = import.meta.env.VITE_CAT_API_KEY;
+const API_KEY = "live_4SfPwHxj2AzhKJ5L5XpXy714WdI1qYB8h7xHwTNmhwiQnhwdHA9hGll50vFvN1TE";
 
 export default function App() {
   const [cat, setCat] = useState(null);
